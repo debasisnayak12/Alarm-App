@@ -116,3 +116,26 @@ label {
   color: #fff;
   background-color: #34344A !important;
 }
+
+
+@media only screen and (max-width:491px){
+   .timer{
+    width: 100%;
+    display: flex;
+   }
+   input{
+    width: 30px;
+   }
+   input::placeholder{
+    font-size: 15px;
+   }
+   label{
+    font-size: 15px;
+   }
+   .timerElementCount.isFinished p{
+    font-size: 15px;
+   }
+   .timerElementCount p{
+    font-size: 15px;
+   }
+}
