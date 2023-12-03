@@ -72,9 +72,13 @@ set.addEventListener('click', () => {
             p.textContent = "Timer is Up !";
             deleteButton.textContent = "Stop";
             // When timer is of play sound 
-            stopSound.play();
+            stopSound.play();   
         }
     },1000);
+    
+    deleteButton.addEventListener('click',()=>{
+        stopSound.pause();
+    });
 
 });
 
