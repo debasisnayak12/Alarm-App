@@ -69,8 +69,8 @@ label {
 .currentTimer p {
   background-color: #39393e;
   border-radius: 50px;
-  padding: 10px 80px;
-  font-size: 24px;
+  padding: 8px 70px;
+  font-size: 20px;
   font-weight: 500;
 }
 .deleteBtn {
